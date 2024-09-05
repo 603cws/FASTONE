@@ -55,14 +55,14 @@ const InfoSection = () => {
 
     const greenCardStyle = {
         ...cardStyle,
-        background: 'linear-gradient(135deg, #48bb78, #da5600)',
+        background: 'linear-gradient(135deg,  #48bb78, purple )',
         color: '#ffffff',
     };
 
     const whiteCardStyle = {
         ...cardStyle,
-        background: 'linear-gradient(135deg, #48bb78, pink)',
-        color: '#2d3748',
+        background: 'linear-gradient(135deg, #48bb78, #da5600)',
+        color: '#ffffff',
         border: '1px solid #e2e8f0',
     };
 
@@ -136,9 +136,9 @@ const InfoSection = () => {
                 >
                     <div>
                         <h2 style={cardTitleStyle}>
-                            Launching this Diwali
+                            This Diwali
                         </h2>
-                        <p style={{ color: '#4e5866' }}>
+                        <p style={{ color: '#ffffff' }}>
                             Be part of something big this festive season.
                         </p>
                     </div>
